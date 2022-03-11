@@ -1,0 +1,36 @@
+.Button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #8d004e;
+  background-color: #c7006d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: inherit;
+  margin: 1rem auto;
+}
+
+.initiate:hover,
+.initiate:active {
+  background-color: #c7006d;
+  border-color: #c7006d;
+}
+
+.initiate.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.initiate.alternative:hover,
+.initiate.alternative:active {
+  background-color: #ddb3f8;
+}
+
+.btn-disabled-submit {
+  border-color: grey;
+  background-color: grey;
+}

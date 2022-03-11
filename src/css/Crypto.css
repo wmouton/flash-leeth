@@ -1,0 +1,114 @@
+.crypto {
+  padding: 4rem 1rem 1rem;
+  background-color: #191b1f;
+  margin: 6rem auto;
+  width: 25rem;
+  max-width: 80%;
+  border-radius: 45px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.show-ethereum-err {
+  margin: 0 auto;
+  max-width: 471px;
+  padding-top: 100px;
+  font-weight: bold;
+}
+.new-expense {
+  background-color: #a892ee;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.error-text-mesg {
+  color: #92053d;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.f26 {
+  font-size: 26px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #005299;
+  background-color: #006bc7;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 1rem auto;
+}
+
+.button:hover,
+.button:active {
+  background-color: #00335f;
+  border-color: #00335f;
+}
+
+.button.alternative:hover,
+.button.alternative:active {
+  background-color: #ddb3f8;
+}
+
+.bgcolor {
+  border: 1px solid #8d004e;
+  background-color: #c7006d;
+}
+
+.initiate:hover,
+.initiate:active {
+  background-color: #c7006d;
+  border-color: #c7006d;
+}
+
+.initiate.alternative:hover,
+.initiate.alternative:active {
+  background-color: #ddb3f8;
+}
+
+.crypto-app {
+  display: flex;
+  padding: 20px 30px;
+}
+.crypto-icon > img {
+  width: 224px;
+}
+
+.crypto-body {
+  flex: 1;
+}
+
+.copyright-text {
+  padding: 0 20px;
+  color: white;
+}
+
+@media screen and (max-width: 782px) {
+  .crypto-app {
+    flex-direction: column;
+  }
+  .crypto-icon {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 782px) {
+  .crypto-icon > img {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .crypto-icon > img {
+    width: 100%;
+  }
+}

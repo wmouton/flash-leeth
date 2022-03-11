@@ -1,0 +1,113 @@
+.NameSymbol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  padding: 1rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 12px;
+  background-color: #212429;
+  font-weight: bold;
+}
+.NameSymbol label {
+  font: inherit;
+  border: 1px solid #006bc7;
+  background: #006bc7;
+  color: white;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 30px;
+  width: 30%;
+}
+
+.NameSymbol input {
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: #006bc7;
+  text-align: end;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+.expense-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.expense-item h2 {
+  font-size: 1rem;
+  flex: 1;
+  color: white;
+}
+.expense-item__change {
+  font-size: 1rem;
+  color: white;
+  background-color: #40005d;
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin: 0 1rem;
+}
+.expense-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #40005d;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.input-inc {
+  display: flex;
+}
+
+.input-inc input[type="number"]::-webkit-inner-spin-button,
+.input-inc input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-inc input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input-inc-icon-container {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.input-inc-icon {
+  cursor: pointer;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0 3px;
+  background-color: #6998ec;
+}
+.input-inc-icon > i {
+  font-size: 12px;
+}
+@media screen and (max-width: 580px) {
+  .NameSymbol input {
+    width: 100%;
+  }
+}
+@media (min-width: 580px) {
+  .expense-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .expense-item__description h2 {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,77 @@
+.cryptofilter {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  padding: 2rem 1rem;
+  margin: 0.5rem 0 2rem;
+  border-radius: 12px;
+  background-color: #212429;
+  font-weight: bold;
+}
+.cryptodesc {
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  background-color: #0063b2;
+  width: 100%;
+}
+.cryptofilter select {
+  font: inherit;
+  padding: 0.2rem 3rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  border: none;
+  margin: 0rem auto;
+}
+.crypto-filter .crypto-filter-label--showMenu {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.crypto-filter > div {
+  width: 126px;
+  margin: 0 auto;
+  font: inherit;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(31, 31, 31);
+  cursor: pointer;
+}
+
+.crypto-filter-label {
+  display: flex;
+  justify-content: space-between;
+}
+.crypto-filter-label > div,
+.crypto-filter-listItem {
+  display: flex;
+}
+.crypto-filter-listItem-text,
+.crypto-filter-label-txt {
+  margin-top: 5px;
+}
+.crypto-desc-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crypto-filter {
+  flex-direction: column;
+}
+.crypto-filter .crypto-filter-listItem {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 10px;
+}
+
+.crypto-filter-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
