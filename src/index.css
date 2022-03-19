@@ -18,3 +18,8 @@ code {
   width: 100%;
   height: 100%;
 }
+
+.background-img {
+  background-image: url("../src/img/background.jpg");
+  background-repeat: no-repeat;
+}
